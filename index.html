@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive Portfolio Website</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet"
     href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
 </head>
@@ -27,9 +27,9 @@
  
 <section class="home" id="home">
     <div class="social">
-        <a href="#"><i class='bx bxl-github'></i></a>
-        <a href="#"><i class='bx bxl-instagram' ></i></a>
-        <a href="#"><i class='bx bxl-linkedin' ></i></a>
+        <a href="https://github.com/ashaydharmik"><i class='bx bxl-github'></i></a>
+        <a href="https://www.instagram.com/i_ashay07/"><i class='bx bxl-instagram' ></i></a>
+        <a href="linkedin.com/in/ashay-dharmik-10aab4207"><i class='bx bxl-linkedin' ></i></a>
     </div>
     <div class="home-img">
         <img src="ashay.jpg" alt="">
@@ -38,7 +38,7 @@
         <span>Hello, I'm</span>
         <h1>Ashay Dharmik</h1>
         <h2><span class="animate"></span></h2>
-        <p>My name is Ashay Narendra Dharmik. Currently pursuing Computer Science Engineering from Jyothy Institute of Technology,Banglore </p>
+        <p>Yes! You are in the right place.<br>I like to craft static Frontend product into <br>appealing user Interface </p>
         <a href="#contact" class="btn">Contact Me</a>
     </div>
 </section>
@@ -54,9 +54,7 @@
             <img src="ashay3.jpg" alt="">
         </div>
         <div class="about-text">
-            <p>I am passionate about my work, and believe that my experience and motivation can bring a fresh perspective to any project. Throughout my career I have successfully completed numerous projects, ranging from small to large scale, and believe in delivering results that exceed expectations.
-
-On this website, you will find examples of my work, details of my qualifications and experience, and contact information. </p>
+            <p>Frontend developer who focuses on writing clean, elegant and efficient code with passion of designing beautiful and functional user interface. I enjoy building everything from a small business sites to rich interactive web apps. You can get in touch with me if you're a company looking for an online presence or are hiring an employee.</p>
             <div class="information">
                 <div class="info-box">
                     <i class='bx bxs-user' ></i>
@@ -71,7 +69,7 @@ On this website, you will find examples of my work, details of my qualifications
                     <span>ashaydharmik807@gmail.com</span>
                 </div>
             </div>
-            <a href="#" class="btn">Download CV</a>
+            <a href="https://drive.google.com/file/d/1NQUzrsbNHAX8xFi_or4XJF5JUSBUprcP/view?usp=sharing" download="Download CV"class="btn">Download CV</a>
         </div>
     </div>
 </section>
@@ -84,34 +82,77 @@ On this website, you will find examples of my work, details of my qualifications
     </div>
     <div class="skills-container">
         <div class="bars">
-            <div class="bars-box">
+            <div class="bars-box" data-progress="94">
                 <h3>HTML</h3>
                 <span>94%</span>
                 <div class="light-bar"></div>
                 <div class="percent-bar html-bar"></div>
             </div>
-            <div class="bars-box">
+            <div class="bars-box"data-progress="84">
                 <h3>CSS</h3>
                 <span>84%</span>
                 <div class="light-bar"></div>
                 <div class="percent-bar css-bar"></div>
             </div>
-            <div class="bars-box">
+            <div class="bars-box" data-progress="64">
                 <h3>JavaScript</h3>
                 <span>64%</span>
                 <div class="light-bar"></div>
                 <div class="percent-bar js-bar"></div>
             </div>
-            <div class="bars-box">
+            <div class="bars-box" data-progress="60">
                 <h3>React</h3>
                 <span>60%</span>
                 <div class="light-bar"></div>
                 <div class="percent-bar react-bar"></div>
             </div>
+            <div class="bars-box" data-progress="70">
+                <h3>Bootstrap</h3>
+                <span>70%</span>
+                <div class="light-bar"></div>
+                <div class="percent-bar boot-bar"></div>
+            </div>
         </div>
         <div class="skills-img">
             <img src="skills.jpg" alt="">
         </div>
+
+<!-- 
+        <div class="meter">
+            <span style="width: 33.3%"></span>
+        </div>
+                
+        <div class="meter">
+            <span style="width: 80%"></span>
+        </div> -->
+
+      
+
+
+
+        
+    <!-- <div class="skills-container">
+        <h3>HTML</h3>
+        <div class="progress">
+            <span style="width: 0;" data-width="94"></span>
+        </div>
+        <h3>CSS</h3>
+        <div class="progress">
+            <span style="width: 0;" data-width="84"></span>
+        </div>
+        <h3>JavaScript</h3>
+        <div class="progress">
+            <span style="width: 0;" data-width="64"></span>
+        </div>
+        <h3>React</h3>
+        <div class="progress">
+            <span style="width: 0;" data-width="60"></span>
+        </div>
+        <h3>Bootstrap</h3>
+        <div class="progress">
+            <span style="width: 0;" data-width="70"></span>
+        </div>
+    </div> -->
     </div>
 </section>
 
@@ -153,38 +194,54 @@ On this website, you will find examples of my work, details of my qualifications
     </div>
     <div class="portfolio-content">
         <div class="portfolio-img">
-            <img src="port1.png" alt="" width="800px" height="300px">
-        </div>
+            <a href="https://ashaydharmik.github.io/RE-generate/">
+                <img src="port5.png" alt=""  width="800px" height="300px"></a>
+                <p>RE-generate Website Interface</p>
+            </div>
         <div class="portfolio-img">
-            <img src="port2.png" alt="" width="800px" height="300px">
-        </div>
-        <div class="portfolio-img">
-            <img src="port3.png" alt="" width="800px" height="300px">
-        </div>
-        <div class="portfolio-img">
-            <img src="port4.png" alt="" width="800px" height="300px">
-        </div>
-        <div class="portfolio-img">
-            <img src="port5.png" alt="" width="800px" height="300px">
-        </div>
-        <div class="portfolio-img">
-            <img src="port6.png" alt="" width="800px" height="300px">
+            <a href="https://ashaydharmik.github.io/WordCounter-React/"><img src="wordCounter.png" alt="" width="800px" height="300px"></a>
+            <p>WordCounter application using React</p>
         </div>     
-    </div>
-</section>
-   
-
+        <div class="portfolio-img">
+            <a href="https://ashaydharmik.github.io/TrelloClone/"> <img src="port4.png" alt="" width="800px" height="300px"></a>
+            <p>Trello Website Landing page clone</p>
+        </div>
+        <div class="portfolio-img">
+            <a href="https://ashaydharmik.github.io/ZerodhaClone/"><img src="port6.png" alt="" width="800px" height="300px"></a>
+            <p>Zerodha Website Landing page clone
+            </p>
+            
+        </div>
+        <div class="portfolio-img">
+            <a href="https://ashaydharmik.github.io/StaticWebpage/"><img src="port2.png" alt="" width="800px" height="300px"></a>
+            <p>Static Webpage </p>
+        </div>
+        <div class="portfolio-img">
+            <a href="https://ashaydharmik.github.io/AngularTable/"><img src="port3.png" alt="" width="800px" height="300px"></a>
+            <p>Data fetching using Angular</p>
+        </div>
+        <div class="portfolio-img">
+            <a href="https://drive.google.com/file/d/1fnnRXIEEKwNdMTrBr2Wxuq9o_rQh5p4H/view?usp=sharing"><img src="C4C.png" alt="" width="800px" height="300px"></a>
+            <p>Full Fledge Website Design using Figma</p>
+        </div>     
+        <div class="portfolio-img">
+            <a href="https://ashaydharmik.github.io/Comic-con/"><img src="port1.png" alt="" width="800px" height="300px"></a>
+            <p>Comic-con website interface</p>
+        </div>
+    </section>
+    
+    
 <section class="contact" id="contact">
     <div class="heading">
         <h2>Contact</h2>
         <span>Connect With Me</span>
     </div>
     <div class="contact-form">
-        <form action="">
-            <input type="text" placeholder="Your Name">
-            <input type="email" name="" id="" placeholder="Your Email">
-            <textarea name="" id="" cols="30" rows="10" placeholder="Write Message Here..."></textarea>
-            <input type="button" value="Send" class="contact-button">
+        <form id="form">
+            <input type="text" id="username"placeholder="Your Name">
+            <input type="email" name="" id="mail" placeholder="Your Email">
+            <textarea name="" id="msg" cols="30" rows="10" placeholder="Write Message Here..."></textarea>
+            <input type="submit" value="Send" class="contact-button">
         </form>
     </div>
 </section>
@@ -205,7 +262,8 @@ On this website, you will find examples of my work, details of my qualifications
 </div>
  
  
-<script src="script.js"></script>
+<script src="./js/script.js"></script>
+<!-- <script src="jscript.js"></script> -->
 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 <script>
     var typed = new Typed(".animate",{
